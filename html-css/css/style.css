@@ -1,0 +1,52 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  background-color: lightblue;
+  padding: 0 5rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+ul {
+  display: flex;
+  gap: 1rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+header img {
+  width: 3rem;
+}
+
+main {
+  background-color: beige;
+  padding: 0.2rem 2rem;
+}
+
+main h1 {
+  text-align: center;
+}
+
+main.contact {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+@media (max-width: 600px) {
+  main.contact {
+    grid-template-columns: 1fr;
+  }
+}
